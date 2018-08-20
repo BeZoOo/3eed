@@ -357,3 +357,9 @@ function sorryDelay() {
     $('#sorry').css('opacity', '1');
 }
 setTimeout(sorryDelay,8000)
+
+function remove() {
+    $('section').hide('slow');
+    $('canvas').fadeOut('slow');
+}
+setTimeout(remove,1000000)
