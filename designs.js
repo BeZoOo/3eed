@@ -362,4 +362,4 @@ function remove() {
     $('section').hide('slow');
     $('canvas').fadeOut('slow');
 }
-setTimeout(remove,20000)
+setTimeout(remove,200000)
